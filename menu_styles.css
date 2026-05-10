@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.logo a{
+    font-size: 30px;
+    color:orange;
+}
+.home-nav {
+    padding: 10px;
+    background-color: #333;
+    /* color: white; */
+    color: orange;
+    text-align: center;
+}
+
+.home-nav a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #444;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 20px 140px;
+}
+
+.food-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.food-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.food-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.price {
+    font-weight: bold;
+    color: green;
+}
+.container h1 {
+    font-size: 36px;
+    color: orange; /* Match the logo color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container p {
+    line-height: 1.6; /* Improve readability */
+    text-align: justify; /* Justify text for better alignment */
+    margin-bottom: 20px;
+}
+#map-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    border-radius: 8px; /* Rounded corners for the map */
+}
